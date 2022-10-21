@@ -33,11 +33,15 @@
         flex-direction: column;
     }
 
+    .perfil {
+        width: 300px;
+    }
+
     .perfil img {
         margin-top: 15px;
         padding-left: 10px;
-        width: 70%;
-        height: 70%;
+        width: 60%;
+        height: 60%;
 
     }
 
