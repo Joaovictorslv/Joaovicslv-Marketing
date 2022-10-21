@@ -1,0 +1,53 @@
+@media (max-width: 750px){
+
+    nav{
+        padding-top: 8px;
+        height: 80px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: #ffbb3357 5px 5px 10px;
+    }
+
+    nav img{
+        width:40px;
+        height: 40px;
+    }
+
+    nav h1{
+        color:#ffbb33;
+        font-size: 14px;
+    }
+
+    nav .butoes{
+        margin-top: 0px;
+    }
+
+    nav .butoes a{
+        font-size: 10px;
+        padding: 7px 12px 7px 12px;
+        width: 30px;
+        height: 10px;
+        
+    }
+
+    .perfil img{
+        margin-top: 15px;
+        padding-left: 10px;
+        width: 70%;
+        height: 70%;
+       
+    }
+
+    .perfil p{
+        color:#fff;
+        width: 200px;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .fileira{
+        width: 500px;
+    }
+}

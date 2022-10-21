@@ -41,25 +41,18 @@ nav .butoes{
     margin-top: 15px;
 }
 
-nav div button{
+nav div a{
+    font-family: 'Poppins', sans-serif;
     margin: 10px;
     padding: 15px 30px 15px 30px;
     background-color: #222;
     border-radius: 10px;
-}
-
-nav div button a{
-    font-family: 'Poppins', sans-serif;
     color: #fff;
     text-decoration: none;
 }
 
-nav div button:hover{
+nav div a:hover{
     background-color: #ffbb33;
-
-}
-
-nav div button a:hover{
     color: #222;
     font-weight: bold;
     text-decoration: none;
@@ -108,7 +101,7 @@ nav div button a:hover{
 }
 
 .fileira{
-    width: 864;
+    width: 864px;
 }
 
 .imageCards{
@@ -117,11 +110,10 @@ nav div button a:hover{
     box-shadow: #ffbb3357  0px 13px 27px -5px;
     width:216px;
     height: 270px;
-
+    transition: .5s;
 }
 
 .imageCards:hover{
-    transition: .5s;
     width:236px;
     height: 290px;
 }
