@@ -1,53 +1,57 @@
-@media (max-width: 750px){
-
-    nav{
+@media (max-width: 750px) {
+    nav {
         padding-top: 8px;
         height: 80px;
-        width: 100%;
         display: flex;
         align-items: center;
         flex-direction: column;
         box-shadow: #ffbb3357 5px 5px 10px;
     }
 
-    nav img{
-        width:40px;
+    nav img {
+        width: 40px;
         height: 40px;
     }
 
-    nav h1{
-        color:#ffbb33;
+    nav h1 {
         font-size: 14px;
     }
 
-    nav .butoes{
+    nav .butoes {
         margin-top: 0px;
+        margin-bottom: 1em;
     }
 
-    nav .butoes a{
+    nav .butoes a {
         font-size: 10px;
-        padding: 7px 12px 7px 12px;
-        width: 30px;
-        height: 10px;
-        
+        padding: 7px 12px;
     }
 
-    .perfil img{
+    .cardPosts {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .perfil img {
         margin-top: 15px;
         padding-left: 10px;
         width: 70%;
         height: 70%;
-       
+
     }
 
-    .perfil p{
-        color:#fff;
-        width: 200px;
+    .perfil p {
+        color: #fff;
+        width: 100%;
         text-align: center;
         font-size: 12px;
     }
 
-    .fileira{
-        width: 500px;
+    .fileira {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
