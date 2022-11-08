@@ -1,18 +1,16 @@
-*{
+* {
     padding: 0;
-    margin:0;
+    margin: 0;
     border: 0;
-
 }
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
     background-image: url('Img/fundo.png');
     background-size: cover;
-
 }
 
-nav{
+nav {
     height: 100px;
     width: 100%;
     display: flex;
@@ -22,26 +20,26 @@ nav{
     box-shadow: #ffbb3357 5px 5px 10px;
 }
 
-nav .infos{
+nav .infos {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-nav h1{
-    color:#ffbb33;
+nav h1 {
+    color: #ffbb33;
 }
 
-nav img{
-    width:80px;
+nav img {
+    width: 80px;
     height: 80px;
 }
 
-nav .butoes{
+nav .butoes {
     margin-top: 15px;
 }
 
-nav div a{
+nav div a {
     font-family: 'Poppins', sans-serif;
     margin: 10px;
     padding: 15px 30px 15px 30px;
@@ -49,16 +47,18 @@ nav div a{
     border-radius: 10px;
     color: #fff;
     text-decoration: none;
+    transition-property: color, background-color;
+    transition-duration: 0.3s;
 }
 
-nav div a:hover{
+nav div a:hover {
     background-color: #ffbb33;
     color: #222;
     font-weight: bold;
     text-decoration: none;
 }
 
-.perfil{
+.perfil {
     margin: 20px;
     width: 200px;
     height: 100%;
@@ -68,52 +68,51 @@ nav div a:hover{
     align-items: center;
 }
 
-.perfil img{
+.perfil img {
     margin-top: 30px;
     padding-left: 10px;
     width: 90%;
     height: 90%;
-   
+
 }
 
-.perfil p{
-    color:#fff;
+.perfil p {
+    color: #fff;
     width: 500px;
     text-align: center;
-
 }
 
-.container{
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.cardPosts{
-    width: 1000px;
+.cardPosts {
+    width: 100%;
     display: flex;
     align-items: center;
     box-sizing: border-box;
     justify-content: center;
     flex-direction: column;
-
 }
 
-.fileira{
-    width: 864px;
+.fileira {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
-.imageCards{
+.imageCards {
     margin: 30px;
     box-sizing: border-box;
-    box-shadow: #ffbb3357  0px 13px 27px -5px;
-    width:216px;
+    box-shadow: #ffbb3357 0px 13px 27px -5px;
+    width: 216px;
     height: 270px;
-    transition: .5s;
+    transition: transform .5s;
 }
 
-.imageCards:hover{
-    width:236px;
-    height: 290px;
+.imageCards:hover {
+    transform: scale(1.2);
 }
